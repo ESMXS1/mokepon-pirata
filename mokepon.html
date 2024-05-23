@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOKEPON!</title>
+    <link rel="stylesheet" href="mokepon.css">
+</head>
+<body>
+
+    <h1>MOKEPON!</h1>
+
+    <section id="seleccionar-mascota">
+        <h3>Elige tu mascota</h3>
+
+        <label><input type="radio" name="mascota" value="hipodoge"> Hipodoge</label>
+        <label><input type="radio" name="mascota" value="capipepo"> Capipepo</label>
+        <label><input type="radio" name="mascota" value="ratigueya"> Ratigueya</label>
+
+        <button id="seleccionar-mascota-btn">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque" style="display:none;">
+        <p>Tu mascota tiene <span id="player-lives">3</span> vidas</p>
+        <p>La mascota del enemigo tiene <span id="enemy-lives">3</span> vidas</p>
+
+        <p>
+            <button id="ataque-fuego">Fuego</button>
+            <button id="ataque-agua">Agua</button>
+            <button id="ataque-tierra">Tierra</button>
+        </p>
+    </section>
+
+    <script src="mokemon.js"></script>
+</body>
+</html>
